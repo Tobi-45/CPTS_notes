@@ -1,0 +1,12 @@
+SSH public key authentication is a method of logging into an SSH/SFTP account using a cryptographic key rather than a password.
+Keys come in pairs of a public key and a private key. Each key pair is unique, and the two keys work together.
+
+These two keys have a special mathematical relationship: if your server is configured with your public key, you can prove you have the corresponding private key without sharing the private key.
+
+Public key authentication works like this:
+
+1. Generate a key pair (public and private key).
+2. Put the public key on the server.
+3. When you SSH into the server, your SSH client proves to the server that you have the corresponding private key.
+
+More about it [here](https://serverpilot.io/docs/how-to-use-ssh-public-key-authentication/)
