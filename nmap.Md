@@ -21,6 +21,6 @@
  `Nmap TCP Connect Scan (-sT) uses the TCP three-way handshake to determine if a specific port on a target host is open or closed.`
 
 ## Saving the outupt
-   `Normal output (-oN) with the .nmap file extension
-    Grepable output (-oG) with the .gnmap file extension
-    XML output (-oX) with the .xml file extension`
+   `Normal output (-oN) with the .nmap file extension`
+   `Grepable output (-oG) with the .gnmap file extension`
+   `XML output (-oX) with the .xml file extension`
