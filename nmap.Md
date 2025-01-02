@@ -28,3 +28,18 @@
 ## Performance
 
 We can use various options to tell Nmap how fast `(-T <0-5>)`, with which frequency `(--min-parallelism <number>)`, which timeouts `(--max-rtt-timeout <time>)` the test packets should have, how many packets should be sent simultaneously `(--min-rate <number>)`, and with the number of retries `(--max-retries <number>)` for the scanned ports the targets should be scanned.
+`--initial-rtt-timeout 50ms` 	Sets the specified time value as initial RTT timeout.
+
+## Decoy
+
+`-S` Source IP Address Spoofing
+
+`-e` Specify Network Interface
+
+`-D` Decoy Scanning
+
+## DNS Proxying 
+
+`--dns-server` Custom DNS Servers 
+
+`--source-port` Source Port Manipulation 
