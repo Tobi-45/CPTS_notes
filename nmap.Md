@@ -38,6 +38,8 @@ We can use various options to tell Nmap how fast `(-T <0-5>)`, with which freque
 
 `-D` Decoy Scanning
 
+`-g`	Specifies the source port for the scan.
+
 ## DNS Proxying 
 
 `--dns-server` Custom DNS Servers 
