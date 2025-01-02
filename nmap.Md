@@ -24,3 +24,7 @@
    `Normal output (-oN) with the .nmap file extension`
    `Grepable output (-oG) with the .gnmap file extension`
    `XML output (-oX) with the .xml file extension`
+
+## Performance
+
+We can use various options to tell Nmap how fast `(-T <0-5>)`, with which frequency `(--min-parallelism <number>)`, which timeouts `(--max-rtt-timeout <time>)` the test packets should have, how many packets should be sent simultaneously `(--min-rate <number>)`, and with the number of retries `(--max-retries <number>)` for the scanned ports the targets should be scanned.
